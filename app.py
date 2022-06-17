@@ -4,7 +4,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     return 'Hello World!'
-@appx.route('/f')
+@app.route('/f')
 def first():
      return 'first example'
 
